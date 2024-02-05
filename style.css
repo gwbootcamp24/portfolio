@@ -1,0 +1,52 @@
+body{
+    background-color: #0f172a;
+    color: #f3f0e6;
+}
+
+.checkerboard{
+    margin-top: 2000px;
+}
+.checkerboard .row .col{
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    padding: 0;
+    background-color: rgb(204, 180, 143);
+}
+.checkerboard .row:nth-child(2n) :nth-child(2n + 1), .checkerboard .row:nth-child(2n + 1) :nth-child(2n) {
+    background-color: black;
+}
+ 
+
+
+
+
+
+ .nav-indicator
+{
+  width: 4rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240/var(--tw-bg-opacity));
+}
+.transition-all
+{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+}
+.bg-slate-600
+{
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105/var(--tw-bg-opacity));
+}
+.w-8
+{
+  width: 2rem;
+}
+.h-px
+{
+  height: 1px;
+}
+.mr-4
+{
+  margin-right: 1rem;
+}
